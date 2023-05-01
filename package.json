@@ -1,0 +1,21 @@
+{
+  "name": "speed-read",
+  "version": "1.0.0",
+  "description": "Speed reading react component that presents words to the user at a selectable words per minute and focuses the reader's eyes at a calculated point of each word to optimize reading speed",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasplath7"
+  },
+  "keywords": [
+    "speed-read",
+    "reader",
+    "text",
+    "reading"
+  ],
+  "author": "lucas.plath@gmail.com",
+  "license": "ISC"
+}
