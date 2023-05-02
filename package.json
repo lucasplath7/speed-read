@@ -1,5 +1,5 @@
 {
-  "name": "speed-read",
+  "name": "speed-read-v1",
   "version": "1.0.0",
   "description": "Speed reading react component that presents words to the user at a selectable words per minute and focuses the reader's eyes at a calculated point of each word to optimize reading speed",
   "main": "index.js",
@@ -19,6 +19,6 @@
   "author": "lucas.plath@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^17.0.0"
   }
 }
