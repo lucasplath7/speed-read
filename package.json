@@ -3,6 +3,7 @@
   "version": "1.4.1",
   "description": "Speed reading react component that presents words to the user at a selectable words per minute and focuses the reader's eyes at a calculated point of each word to optimize reading speed",
   "main": "dist/index.js",
+  "files": ["dist"],
   "scripts": {
     "test": "test",
     "build": "babel src --out-dir dist"
