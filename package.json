@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "test": "test",
-    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist && cp src/index.css dist"
   },
   "repository": {
     "type": "git",
