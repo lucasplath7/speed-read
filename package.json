@@ -1,6 +1,6 @@
 {
   "name": "speed-read-v1",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Speed reading react component that presents words to the user at a selectable words per minute and focuses the reader's eyes at a calculated point of each word to optimize reading speed",
   "main": "dist/index.js",
   "files": [
