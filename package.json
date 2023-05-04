@@ -26,7 +26,7 @@
   "author": "lucas.plath@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^17.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.5",
