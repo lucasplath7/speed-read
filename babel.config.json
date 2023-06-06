@@ -3,7 +3,7 @@
      [
       "@babel/preset-env",
       {
-        "modules": true,
+        "modules": "auto",
         "useBuiltIns": "usage",
         "corejs": "3.21.1",
         "targets": {
