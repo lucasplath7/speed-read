@@ -100,8 +100,7 @@ export default function SpeedRead(props) {
   }
   function getNextWordTimeout() {
     var word = state.words[state.currentWordIndex];
-    var normalized = props.normalized;
-    var wordTimeout = normalized ? word.length * state.charTempo : state.standardTempo;
+    var wordTimeout = word.length * state.charTempo;
     var delay = /^\(|[,.)]$/.test(word) || isEmoji(word);
     if (delay) wordTimeout += state.standardTempo;
 
