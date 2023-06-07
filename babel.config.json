@@ -3,8 +3,8 @@
      [
       "@babel/preset-env",
       {
-        "modules": "auto",
-        "useBuiltIns": "usage",
+        "modules": false,
+        "useBuiltIns": false,
         "corejs": "3.21.1",
         "targets": {
           "chrome": "99",
