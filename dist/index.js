@@ -32,7 +32,7 @@ export default function SpeedRead(props) {
   var initialState = {
     charTempo: charTimeout(props.text, props.wpm),
     currentWordIndex: 0,
-    playing: false,
+    playing: props.playing || false,
     standardTempo: Math.trunc(ONE_MINUTE / props.wpm),
     startTimeout: props.startTimeout ? props.startTimeout : 800,
     text: props.text,
